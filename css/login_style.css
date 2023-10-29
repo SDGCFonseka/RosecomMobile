@@ -1,0 +1,254 @@
+body,
+html {
+  line-height: 1.8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555e58;
+  text-transform: none;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 15px;
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #333;
+  font-weight: 400;
+}
+
+button:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+/*===============================================================================
+                                  USERLOGIN START
+  ===============================================================================*/
+  .body-control{
+    background-image: url('../img/interface_bg/login_bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+   .login_bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index: -1;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+   }
+   
+  
+/* .login_bg {
+  
+  filter: brightness(30%);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+.body {
+    position: relative;
+    width: 800px;
+    height: 380px;
+    margin:10% auto 10% auto;
+    border: 1px solid white;
+    border-radius: 18px;
+    background-color: #e7e7e7dc;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    
+}
+
+.ads img{
+  width: 100%;
+  height: 100%;
+ }
+
+.box_2{
+  padding: 20px;
+}
+
+@media (max-width:767px) {
+    body {
+        padding: 10px;
+    }
+
+    .body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 100%;
+        height: 440px;
+    }
+} */
+
+#main-wrapper{
+  margin: 1% auto;
+ }
+
+ .card{
+     background-color: rgba(245, 245, 245, 0.95);
+ }
+
+ .admin-icon{
+     color: green;
+     padding-left: 8px;
+     
+ }
+
+.account-block {
+  padding: 0;
+  background-image: url('../img/logo/rosecom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.account-block .account-testimonial {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+
+.text-theme {
+  color: green !important;
+}
+
+.btn-theme {
+  background-color: white;
+  border:2px solid green;
+  font-weight: 600;
+  color: green;
+  transition: 0.3s;
+  width: 100px;
+}
+
+.btn-theme:hover {
+  border:2px solid green;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+ 
+}
+
+.btn-theme.active{
+  border:2px solid green;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.error-msg {
+  
+  margin:35px 0 30px 0;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.alert{
+  padding:3px;
+}
+
+
+
+/*===============================================================================
+                                  USERLOGIN END
+  ===============================================================================*/
+
+  /*===============================================================================
+                                  LOGIN PROCESS START
+  ===============================================================================*/
+  
+  
+  
+  #content{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+  }
+
+
+  /*===============================================================================
+                                  LOGIN PROCESS END
+  ===============================================================================*/
+
+
+  /*-----------------------------Footer Start----------------------------*/
+
+.footer {
+    border-top: 1px solid #e7e7e7;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(226, 224, 224);
+    bottom: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+  }
+  
+  .footer ul li a {
+    color: inherit;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+  }
+  
+  footer .copyright {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /*-----------------------------Footer End----------------------------*/
